@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap&family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-header">
+        <div id="logo">
+          <a href="#">Soul<span>Travel</span>.</a>
+        </div>
+        <div id="hamburger-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul id="nav-links">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div id="nav-btn">
+        <button class="btn sign-in">Sign In</button>
+        <button class="btn sign-up">Sign Up</button>
+      </div>
+    </nav>
+    <header id="main-header">
+      <div id="header-image">
+        <div class="card" id="card-1">
+          <span><i class="ri-key-line"></i></span>
+          <p>Hotel Booking</p>
+        </div>
+
+        <div class="card" id="card-2">
+          <span><i class="ri-passport-line"></i></span>
+          <p>Fight Tickets</p>
+        </div>
+
+        <div class="card" id="card-3">
+          <span><i class="ri-map-2-line"></i></span>
+          <p>Local Events</p>
+        </div>
+
+        <div class="card" id="card-4">
+          <span><i class="ri-guide-line"></i></span>
+          <p>Tour Guide</p>
+        </div>
+        <img src="images/girl.png" alt="happy girl" />
+      </div>
+      <div id="header-content">
+        <h1>LET'S GO!<br />THE <span>ADVENTURE</span> IS WAITING FOR YOU!</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+          temporibus excepturi voluptates dolore illo, nesciunt explicabo nam
+          nemo ut quas maxime eaque ducimus aspernatur suscipit, velit
+          doloremque totam modi at.
+        </p>
+        <form>
+          <ul id="form-content">
+            <li class="group">
+              <h2>Destinations</h2>
+              <div>
+                <span><i class="ri-map-pin-line"></i></span>
+                <input type="text" placeholder="ex. Rome, Italy" />
+              </div>
+            </li>
+            <li class="group">
+              <h2>Date</h2>
+              <div>
+                <span><i class="ri-calendar-2-line"></i></span>
+                <input type="date" />
+              </div>
+            </li>
+          </ul>
+
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
