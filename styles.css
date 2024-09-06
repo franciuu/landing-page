@@ -16,6 +16,7 @@
 body {
   font-family: "Nunito", sans-serif;
   background-color: var(--background);
+  height: 100dvh;
 }
 a {
   text-decoration: none;
