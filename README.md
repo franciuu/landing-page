@@ -9,6 +9,6 @@ It features elements such as buttons, inputs for destinations and dates, and inf
     <img src="https://github.com/user-attachments/assets/26ed4beb-0c97-47f0-bf0e-19897b516492" alt="Landing Page Screenshot" style="width: 70%; border-radius: 8px;">
 </div>
 
-## Disclaimer
+## Note
 
 This project is for educational purposes and the design idea is not original. 
